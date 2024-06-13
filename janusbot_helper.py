@@ -2,12 +2,14 @@
 import warnings
 warnings.filterwarnings('ignore')
 
-from dotenv import find_dotenv, load_dotenv
-load_dotenv(find_dotenv())
+# from dotenv import find_dotenv, load_dotenv
+# load_dotenv(find_dotenv())
 
 import os
 
 #HUGGINGFACEHUB_API_TOKEN="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"
+
+HUGGINGFACEHUB_API_TOKEN=st.secrets["OPENAI_API_KEY"]
 
 from langchain_community.llms import HuggingFaceEndpoint
 from langchain.chains import LLMChain
@@ -19,7 +21,7 @@ repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
 llm = HuggingFaceEndpoint(
     repo_id=repo_id,
     temperature= 0.01,
- #   token=HUGGINGFACEHUB_API_TOKEN
+    token=HUGGINGFACEHUB_API_TOKEN
     )
 
 collection = chromadb.PersistentClient(path="janus.db").get_collection(name="janus_database")
