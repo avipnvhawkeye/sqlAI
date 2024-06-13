@@ -7,4 +7,3 @@ pycocotools
 python-pptx
 chromadb
 streamlit
-python-dotenv
