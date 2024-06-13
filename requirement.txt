@@ -6,6 +6,4 @@ pycocotools
 python-pptx
 chromadb
 streamlit
-llama_index
-llama-cpp-python
-langchain
+langchain-community
