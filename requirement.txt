@@ -1,5 +1,4 @@
 python-dotenv
-langchain
 huggingface_hub
 pypdf
 onnx
@@ -7,4 +6,6 @@ pycocotools
 python-pptx
 chromadb
 streamlit
-langchain_community
+llama_index
+llama-cpp-python
+langchain
