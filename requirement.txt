@@ -7,3 +7,4 @@ pycocotools
 python-pptx
 chromadb
 streamlit
+langchain_community
