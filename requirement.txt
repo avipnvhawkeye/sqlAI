@@ -1,1 +1,9 @@
 python-dotenv
+langchain
+huggingface_hub
+pypdf
+onnx
+pycocotools
+python-pptx
+chromadb
+streamlit
