@@ -7,4 +7,4 @@ pip install pycocotools
 pip install python-pptx
 pip install chromadb
 pip install streamlit
-dotenv
+pip install dotenv
