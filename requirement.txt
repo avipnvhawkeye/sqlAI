@@ -7,5 +7,3 @@ pycocotools
 python-pptx
 chromadb
 streamlit
-pandas
-numpy
