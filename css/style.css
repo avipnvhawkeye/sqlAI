@@ -1,0 +1,141 @@
+.App {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+    border: 0;
+}
+
+.Content {
+    padding-top: 100px;
+}
+
+.questionArea {}
+
+.answerWindow {}
+
+.Sidebar {
+    min-height: 96vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    float: left;
+    background-color: #eee;
+    padding: 20px;
+    font-size: 12px;
+    position: relative;
+}
+
+.Sidebar h2 {
+    font-size: 22px;
+    display: inline;
+}
+
+.Sidebar span {
+    font-size: 12px;
+    display: inline;
+}
+
+.sideList {
+    padding: 1rem;
+    margin-top: 0.375rem;
+}
+
+.sideList li {
+    list-style: none;
+}
+
+.sideList li a {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    column-gap: 0.75rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    color: rgb(51 65 85);
+}
+
+.sideList li a:hover {
+    background-color: #F3F4F6;
+}
+
+.collapseBtn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.collapseBtn svg {
+    bottom: -6px;
+    position: relative;
+}
+
+.registration {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(51 65 85);
+}
+
+
+.textareaInpt, textarea {
+    padding: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 0.5rem;
+    border-color: #E5E7EB;
+    width: 70%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    background-color: #F3F4F6;
+}
+
+.actionBarHolder {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    top: -40px;
+}
+
+.userActions {
+    width: 70%;
+    display: inline-block;
+}
+
+.userActions button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    color: #6B7280;
+}
+
+.userActions button:hover {
+    color: #2563EB;
+}
+
+.attachIcon {
+    float: left;
+}
+
+.sendIcon {
+    float: right;
+}
+
+.sendIcon:hover {
+    cursor: pointer;
+}
