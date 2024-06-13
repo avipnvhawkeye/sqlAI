@@ -10,7 +10,7 @@ import os
 
 #HUGGINGFACEHUB_API_TOKEN="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"
 
-HUGGINGFACEHUB_API_TOKEN=st.secrets["OPENAI_API_KEY"]
+HUGGINGFACEHUB_API_TOKEN=st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 from langchain_community.llms import HuggingFaceEndpoint
 from langchain.chains import LLMChain
