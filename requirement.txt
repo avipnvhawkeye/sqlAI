@@ -7,3 +7,4 @@ pycocotools
 python-pptx
 chromadb
 streamlit
+python-dotenv==0.10.1
