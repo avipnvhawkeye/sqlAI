@@ -10,12 +10,12 @@ import os
 
 #HUGGINGFACEHUB_API_TOKEN="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"
 
-HUGGINGFACEHUB_API_TOKEN=st.secrets["HUGGINGFACEHUB_API_TOKEN"]
-
 from langchain_community.llms import HuggingFaceEndpoint
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 import chromadb
+
+HUGGINGFACEHUB_API_TOKEN=st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
 
