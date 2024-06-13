@@ -1,10 +1,10 @@
-pip install python-dotenv
-pip install langchain
-pip install huggingface_hub
-pip install pypdf
-pip install onnx
-pip install pycocotools
-pip install python-pptx
-pip install chromadb
-pip install streamlit
-pip3 install python-dotenv
+python-dotenv
+langchain
+huggingface_hub
+pypdf
+onnx
+pycocotools
+python-pptx
+chromadb
+streamlit
+python-dotenv
